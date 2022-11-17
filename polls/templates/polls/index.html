@@ -1,3 +1,7 @@
+{% load static %}
+
+<link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
